@@ -2,7 +2,9 @@
   "projectId": "4b7344",
   "reporter": "junit",
   "reporterOptions": {
-    "mochaFile": "~/junit/test-results.xml",
+    "mochaFile": "./junit/test-results.xml",
     "toConsole": true
-  }
+  },
+  "screenshotsFolder": "./junit",
+  "videosFolder": "./junit"
 }
