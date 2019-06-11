@@ -14,7 +14,7 @@ context('Aliasing', () => {
 
     cy.get('.as-table').find('tbody>tr')
       .first().find('td').first()
-      .find('button').as('firstBtn')
+      .find('button').as('firstBtn1')
 
     // when we reference the alias, we place an
     // @ in front of its name

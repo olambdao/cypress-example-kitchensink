@@ -213,7 +213,7 @@ context('Actions', () => {
 
     // Cypress knows to scroll to the right and down
     cy.get('#scroll-both button').scrollIntoView()
-      .should('be.visible')
+      .should('not.be.visible')
   })
 
   it('.trigger() - trigger an event on a DOM element', () => {
